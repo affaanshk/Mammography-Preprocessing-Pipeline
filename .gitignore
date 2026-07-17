@@ -1,0 +1,12 @@
+# .gitignore
+__pycache__/
+*.pth
+*.pt
+*.ckpt
+.ipynb_checkpoints/
+*.csv
+data/
+outputs/
+results/
+wandb/
+.DS_Store
