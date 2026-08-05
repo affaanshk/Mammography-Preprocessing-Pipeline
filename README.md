@@ -114,7 +114,7 @@ cleaned_tissue = pipeline.preprocess_image("sample_mammogram.png")
 - GitHub
 - Jupyter Notebook
 
-- ## 🎯 Primary Objectives
+## 🎯 Primary Objectives
 
 - Remove acquisition artifacts
 - Suppress pectoral muscle regions
