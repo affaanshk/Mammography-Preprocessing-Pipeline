@@ -72,14 +72,13 @@ cleaned_tissue = pipeline.preprocess_image("sample_mammogram.png")
 
 ## 🛠️ Technologies
 
-### Programming Language
+### Programming
 - Python
 
 ### Deep Learning
 - PyTorch
 - Torchvision
-- U-Net
-- ResNet18
+- timm (PyTorch Image Models)
 
 ### Computer Vision & Image Processing
 - OpenCV
@@ -88,25 +87,44 @@ cleaned_tissue = pipeline.preprocess_image("sample_mammogram.png")
 - SciPy
 - Matplotlib
 
-### Data Processing
+### Machine Learning & Data Analysis
+- scikit-learn
 - Pandas
 
-### Medical Imaging
-- Mammography Preprocessing
-- Medical Image Analysis
-- Pectoral Muscle Segmentation
+### Deep Learning Models
+- U-Net
+- ResNet18
+- ResNet50
+- Vision Transformer (ViT-B/16)
+- DeiT-Tiny
+- Swin Transformer
+- ConvNeXt-Tiny
+- EfficientNet-B3
+- MLP-Mixer
+- CNN
 
-### Dataset & Annotation
-- Mini-DDSM
+### Medical Image Processing
+- Mammography Preprocessing
+- Medical Image Segmentation
+- Pectoral Muscle Segmentation
+- Breast Cancer Classification
+- BI-RADS-aligned Classification
+
+### Annotation & Dataset Preparation
 - LabelMe
 - Manual Polygon Annotation
+- Mask Generation
+- Dataset Curation
+- Mini-DDSM
 
 ### Image Processing Techniques
 - Morphological Operations
 - Distance Transform
 - Gaussian Blur
-- Image Normalization
 - Mask Feathering
+- Image Normalization
+- Histogram-based Intensity Scaling
+- Thresholding
 
 ### Development Tools
 - Kaggle Notebooks
@@ -114,6 +132,21 @@ cleaned_tissue = pipeline.preprocess_image("sample_mammogram.png")
 - GitHub
 - Jupyter Notebook
 
+## 💡 Concepts Demonstrated
+
+- Image Preprocessing Pipelines
+- Medical Image Analysis
+- Semantic Segmentation
+- Transfer Learning
+- Vision Transformers
+- Feature Engineering
+- Deep Learning Inference
+- Computer Vision
+- Data Augmentation
+- Model Benchmarking
+- Reproducible Research
+
+  
 ## 🎯 Primary Objectives
 
 - Remove acquisition artifacts
